@@ -102,6 +102,42 @@ input {
     padding: 20px;
 }
 
+.button {
+    width: 30vw;
+    min-height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2vw;
+    background-color: rgb(0, 0, 0, 0);
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: green;
+    border-color: green;
+    cursor: pointer;
+    margin: 80px;
+}
+
+.button:focus {
+    border-color: green;
+    outline: none;
+}
+
+.button:hover {
+    border-color: rgb(0, 95, 0);
+    color: rgb(0, 95, 0);
+}
+
+button:active {
+    border-color: rgb(0, 95, 0);
+    color: rgb(0, 95, 0);
+}
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-size: 25px;
     border-radius: 20px;
@@ -111,7 +147,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: blueviolet;
+    border-color: green;
 }
 
 h1 {
@@ -132,6 +168,19 @@ h1 {
 
 h2 {
     font-size: 2.5vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+h4 {
+    font-size: 1.5vw;
+    margin: 20px;
+}
+
+.tab {
+    margin-left: 20px;
 }
 
 .green {
